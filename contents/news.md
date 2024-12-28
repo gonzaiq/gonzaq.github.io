@@ -1,0 +1,2 @@
+- Successfully defended PhD thesis! 🎉
+- New preprint available: <a href="https://arxiv.org/abs/2410.03281" target="_blank" rel="noopener noreferrer">BN-SCAFFOLD: controlling the drift of Batch Normalization statistics in Federated Learning</a>
