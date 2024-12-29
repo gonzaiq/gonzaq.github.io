@@ -1,4 +1,4 @@
-- <strong>December 6, 2024:</strong> Successfully defended PhD thesis! 🎉  Slides available <a href="./static/assets/PhD_defense.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+- <strong>December 6, 2024:</strong> Successfully defended my PhD thesis! 🎉  Slides available <a href="./static/assets/PhD_defense.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 - <strong>October 4, 2024:</strong> New preprint on Federated Learning available <a href="https://arxiv.org/abs/2410.03281" target="_blank" rel="noopener noreferrer">here</a>.
 
