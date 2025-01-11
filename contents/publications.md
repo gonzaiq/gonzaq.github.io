@@ -40,7 +40,7 @@ Here is a list of my publications:
 - **Incidence of the sample size distribution on one-shot federated learning**  
   Garin, M., & Quintana, G. I.<br>
   <em>Image Processing On Line<em>, Feb 2023<br>
-  [Link to paper](https://www.ipol.im/pub/art/2023/440/)
+  [Link to paper](https://www.ipol.im/pub/art/2023/440/) &nbsp; [Link to demo](https://ipolcore.ipol.im/demo/clientApp/demo.html?id=440) &nbsp; [Link to code](https://github.com/gonzaq94/one-shot-fed-learning)
 
 <img src="./static/assets/img/publications/statistical.png" alt="Paper Image" width="200" style="float: right; margin-left: 15px; margin-bottom: 10px;">
 
