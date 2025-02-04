@@ -1,5 +1,13 @@
 Here is a list of my publications:
 
+<img src="./static/assets/img/publications/cmmd_contr.png" alt="Paper Image" width="200" style="float: right; margin-left: 15px; margin-bottom: 10px;">
+
+- <strong>Bridging Contrastive Learning and Domain Adaptation: Theoretical Perspective and Practical Application
+</strong><br>
+  Quintana, G. I., Vancamberg, L., Jugnon, V., Desolneux, A., Mougeot, M.<br>
+  <em>arXiv preprint</em>, Dec 2024<br>
+  <a href="https://www.arxiv.org/abs/2502.00052" target="_blank" rel="noopener noreferrer">Link to paper</a><br>
+
 <img src="./static/assets/img/publications/bn_scaffold.png" alt="Paper Image" width="200" style="float: right; margin-left: 15px; margin-bottom: 10px;">
 
 - <strong>BN-SCAFFOLD: controlling the drift of Batch Normalization statistics in Federated Learning</strong><br>

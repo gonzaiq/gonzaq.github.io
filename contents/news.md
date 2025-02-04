@@ -1,3 +1,5 @@
+- <strong>February 4, 2025:</strong> New preprint on Contrastive Learning for Domain Adaptation! See <a href="https://www.arxiv.org/abs/2502.00052" target="_blank" rel="noopener noreferrer">here</a>.
+
 - <strong>January 9, 2025:</strong> New demo available in Hugging Face 🤗 spaces: <a href="https://huggingface.co/spaces/gonzaq/gen-transcrip-transf" target="_blank" rel="noopener noreferrer">link</a>.
 
 - <strong>January 7, 2025:</strong> New patent granted (GE HealthCare)! <a href="https://www.freepatentsonline.com/y2025/0006381.html" target="_blank" rel="noopener noreferrer">link</a>.
