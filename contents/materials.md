@@ -1,5 +1,10 @@
 ## Academic work
 
+
+- PhD thesis: <a href="https://cnrs.hal.science/tel-04981572/" target="_blank" rel="noopener noreferrer">here</a>.
+
+- PhD defense slides: <a href="./static/assets/PhD_defense.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+
 - PhD defense slides: <a href="./static/assets/PhD_defense.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 - ISBI 2024 poster: <a href="./static/assets/isbi_2024_poster.pdf" target="_blank" rel="noopener noreferrer">here</a>.
