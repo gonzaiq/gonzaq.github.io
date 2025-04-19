@@ -1,6 +1,14 @@
+
+
+- <strong>April 1, 2025:</strong> I am starting a new position as Research Scientist at Jasper AI! Focusing on deep generative models.</a>.
+
+- <strong>March 7, 2025:</strong> My PhD thesis is now available in HAL: <a href="https://cnrs.hal.science/tel-04981572/" target="_blank" rel="noopener noreferrer">here</a>.
+
 - <strong>February 4, 2025:</strong> New preprint on Contrastive Learning for Domain Adaptation! See <a href="https://www.arxiv.org/abs/2502.00052" target="_blank" rel="noopener noreferrer">here</a>.
 
 - <strong>January 9, 2025:</strong> New demo available in Hugging Face 🤗 spaces: <a href="https://huggingface.co/spaces/gonzaq/gen-transcrip-transf" target="_blank" rel="noopener noreferrer">link</a>.
+
+- <strong>December 6, 2024:</strong> I successfully defended my PhD thesis! 🎉  Slides available <a href="./static/assets/PhD_defense.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 - <strong>January 7, 2025:</strong> New patent granted (GE HealthCare)! <a href="https://www.freepatentsonline.com/y2025/0006381.html" target="_blank" rel="noopener noreferrer">link</a>.
 
