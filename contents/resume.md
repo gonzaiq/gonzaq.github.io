@@ -1,10 +1,10 @@
 #### Experience
 
-**Research Scientist*  
+**Research Scientist**  
 *Jasper AI* — April 2025 - Present
 
 **Postdoctoral Researcher**  
-*ENS Paris-Saclay* — October 2024 - March 2025
+*ENS Paris-Saclay* — October 2024 - April 2025
 
 **AI Researcher**  
 *GE HealthCare* — July 2021 - October 2024
