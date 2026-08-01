@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
+    <meta name="author" content="Gonzalo Iñaki Quintana" />
     <title id="title"></title>
 
     <!-- Icon -->
@@ -31,9 +31,6 @@
     <!-- Bootstrap core JS-->
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
 
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
     <!-- Markdown -->
     <script type="text/javascript" src="static/js/marked.min.js"></script>
 
@@ -99,7 +96,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#research">RESEARCH</a>
                     </li>
 
                     <li class="nav-item">
@@ -107,20 +104,20 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#repositories">REPOSITORIES</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#materials">MATERIALS</a>
+                        <a class="nav-link me-lg-3" href="#opensource">OPEN SOURCE</a>
                     </li>
 
                 </ul>
+                <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </button>
             </div>
         </div>
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
+    <section class="top-section">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
@@ -173,17 +170,17 @@
     </section>
     <!-- Resume  -->
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <!-- Research -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="research">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="research-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;RESEARCH</h2>
             </header>
-            <div class="main-body" id="publications-md"></div>
+            <div class="main-body" id="research-md"></div>
 
         </div>
     </section>
-    <!-- Publications  -->
+    <!-- Research  -->
 
     <!-- Patents -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="patents">
@@ -197,29 +194,17 @@
     </section>
     <!-- Patents  -->
 
-    <!-- Repositories -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="repositories">
+    <!-- Open Source -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="opensource">
         <div class="container px-5">
             <header>
-                <h2 id="repositories-subtitle"><i class="bi bi-github"></i>&nbsp;REPOSITORIES</h2>
+                <h2 id="opensource-subtitle"><i class="bi bi-box-seam"></i>&nbsp;OPEN SOURCE</h2>
             </header>
-            <div class="main-body" id="repositories-md"></div>
+            <div class="main-body" id="opensource-md"></div>
 
         </div>
     </section>
-    <!-- Repositories  -->
-
-    <!-- Materials -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="materials">
-        <div class="container px-5">
-            <header>
-                <h2 id="materials-subtitle"><i class="bi bi-book"></i>&nbsp;MATERIALS</h2>
-            </header>
-            <div class="main-body" id="materials-md"></div>
-
-        </div>
-    </section>
-    <!-- Materials  -->
+    <!-- Open Source  -->
 
 
     <!-- Footer-->
@@ -227,12 +212,28 @@
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
+                <a id="github-link" href="https://github.com/gonzaiq">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" href="https://github.com/gonzaiq/gonzaq.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>
+
+    <!-- Publication abstract modal -->
+    <div class="modal fade" id="abstractModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="abstract-meta text-muted mb-3"></p>
+                    <p class="abstract-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
